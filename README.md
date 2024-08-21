@@ -5,6 +5,8 @@ You can see more details in [KAN journal paper](https://arxiv.org/abs/2404.19756
 
 ![image](https://github.com/user-attachments/assets/bdb4bb15-f02c-40fe-8847-cc04b0f07caa)
 
+![image](https://github.com/user-attachments/assets/72c4e49b-4d20-4627-b986-08cb23c2844a)
+
 
 ## Features
 
