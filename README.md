@@ -3,6 +3,9 @@
 This repository contains an implementation of Kolmogorov-Arnold Networks (KAN) using PyTorch. KANs are a neural network architecture designed to approximate multivariate functions through a combination of linear transformations and spline-based layers. The network is particularly effective for tasks requiring smooth and accurate approximations.
 You can see more details in [KAN journal paper](https://arxiv.org/abs/2404.19756)
 
+![image](https://github.com/user-attachments/assets/bdb4bb15-f02c-40fe-8847-cc04b0f07caa)
+
+
 ## Features
 
 - **Spline-based Layers**: Each layer uses B-splines for function approximation, enabling smooth and continuous representations.
