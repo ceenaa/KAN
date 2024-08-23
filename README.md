@@ -10,8 +10,8 @@ You can see more details in [KAN journal paper](https://arxiv.org/abs/2404.19756
 
 ## Features
 
-- **Spline-based Layers**: Each layer uses B-splines for function approximation, enabling smooth and continuous representations.
-- **Customizable Architecture**: Easily customize the number of layers, grid size, spline order, and activation functions.
+- **Spline-based Layers**: Each layer uses `B-splines` for function approximation, enabling smooth and continuous representations.
+- **Customizable Architecture**: Easily customize the number of `layers`, `grid size`, `spline order`, and `activation functions`.
 - **Simple Interface**: Define, train, and evaluate models with standard PyTorch modules and utilities.
 
 ## Usage
@@ -47,11 +47,11 @@ for epoch in range(n_epochs):
 ```
 
 ## Understanding the Components
-* Layer Class: Implements a single spline-based layer using B-splines.
-* KAN Class: Stacks multiple Layer instances to form a network. The architecture is defined by the layers_hidden parameter, which specifies the size of each layer.
+* Layer Class: Implements a single spline-based layer using `B-splines`.
+* KAN Class: Stacks multiple Layer instances to form a network. The architecture is defined by the `layers_hidden parameter`, which specifies the size of each layer.
 
 ## B-Spline Computation
-The B-splines are computed using recursive definitions, and the spline coefficients are learned during training. This allows the network to approximate complex functions with smooth transitions.
+The `B-splines` are computed using recursive definitions, and the spline coefficients are learned during training. This allows the network to approximate complex functions with smooth transitions.
 
 ## Dataset Example
 In the provided notebook, the network is trained on the Iris dataset after reducing its dimensionality using PCA. The target variable is encoded, and the network is trained to predict the encoded labels.
